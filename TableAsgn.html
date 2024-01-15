@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Assign</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      table {
+        min-width: 500px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.19);
+        border-collapse: collapse;
+        margin: 20px 0;
+        border-spacing: 10px;
+        font-size: 1rem;
+        border-radius: 6px 6px 0 0;
+        overflow: hidden;
+      }
+
+      thead {
+        background-color: #009879;
+        color: white;
+        font-weight: bold;
+      }
+
+      thead tr {
+        text-align: left;
+      }
+
+      th,
+      td {
+        padding: 9px 11px;
+        border-bottom: 1px solid rgb(214, 214, 214);
+      }
+
+      tbody tr:nth-of-type(even) {
+        background-color: rgb(241, 241, 241);
+      }
+
+      tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+
+      tbody tr:hover {
+        color: #009879;
+        /* font-weight: bold; */
+        cursor: pointer;
+      }
+
+      .container {
+        margin: auto;
+        width: 35%;
+        padding: 50px;
+      }
+
+      .text {
+        color: #009879;
+        text-align: center;
+        text-shadow: 5px 5px 9px rgb(129, 127, 127) ;
+        letter-spacing: 3px;
+        font-family: sans-serif ;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="container">
+        <h1 class="text">Table Styling</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Names</th>
+            <th>Points</th>
+            <th>Team</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sally</td>
+            <td>72,400</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
